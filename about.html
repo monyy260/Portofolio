@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Amany Galal</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <style>
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-xl);
+      align-items: center;
+      margin-top: calc(var(--spacing-xl) + 50px);
+    }
+    .about-image {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--surface-color);
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-md);
+      margin-top: var(--spacing-lg);
+    }
+    .skill-item h4 {
+      color: var(--accent-gold);
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .skill-item p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    
+    @media (max-width: 768px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section container">
+    <div class="about-grid">
+      <div class="reveal">
+        <img src="assets/images/profile.jpg" alt="Amany Galal" class="about-image">
+      </div>
+      
+      <div class="about-content reveal delay-1">
+        <span class="section-number">ABOUT ME</span>
+        <h1 class="h1" style="margin: 1rem 0;">I design with <span class="text-accent">purpose.</span></h1>
+        <p class="text-muted" style="margin-bottom: 1.5rem; font-size: 1.1rem;">
+          Hi, I'm Amany. I'm a UX/UI Designer passionate about bridging the gap between user needs and business goals. With a background in psychology and visual design, I approach problems from a human-centric perspective.
+        </p>
+        <p class="text-muted" style="margin-bottom: 2rem; font-size: 1.1rem;">
+          When I'm not pushing pixels, you can find me analyzing mobile apps, reading about behavioral economics, or experimenting with new prototyping tools.
+        </p>
+        <a href="contact.html" class="btn btn-solid">Let's Connect</a>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="reveal" style="margin-top: var(--spacing-xl);">
+      <h2 class="h2 text-accent">My Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-item card" style="padding: 1.5rem;">
+          <h4>Research & Strategy</h4>
+          <p>User Interviews, Persona Creation, Journey Mapping, Competitive Analysis, Information Architecture.</p>
+        </div>
+        <div class="skill-item card" style="padding: 1.5rem;">
+          <h4>UI Design</h4>
+          <p>Wireframing, High-Fidelity Mockups, Design Systems, Responsive Design, Typography, Color Theory.</p>
+        </div>
+        <div class="skill-item card" style="padding: 1.5rem;">
+          <h4>Prototyping</h4>
+          <p>Interactive Prototypes, Micro-interactions, User Flows, Usability Testing.</p>
+        </div>
+        <div class="skill-item card" style="padding: 1.5rem;">
+          <h4>Tools</h4>
+          <p>Figma, Adobe XD, Sketch, Miro, Webflow, Basic HTML/CSS/JS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

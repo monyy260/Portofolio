@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work | Amany Galal</title>
+  <meta name="description" content="View all UX/UI design projects by Amany Galal.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Header Spacer for Navbar -->
+  <div style="height: 100px;"></div>
+
+  <section class="section container">
+    <div class="reveal">
+      <h1 class="h1 mb-md">My <span class="text-accent">Work</span></h1>
+      <p class="text-muted" style="max-width: 600px; margin-bottom: var(--spacing-lg);">
+        A selection of projects where I've helped craft engaging digital experiences, from initial research to final polished interfaces.
+      </p>
+    </div>
+
+    <!-- Filter Tabs (Visual Only for now, but setup for JS later) -->
+    <div class="reveal delay-1" style="display: flex; gap: 1rem; margin-bottom: var(--spacing-lg); flex-wrap: wrap;">
+      <button class="btn btn-solid" style="padding: 0.5rem 1.5rem;">All</button>
+      <button class="btn" style="padding: 0.5rem 1.5rem;">UX/UI</button>
+      <button class="btn" style="padding: 0.5rem 1.5rem;">Web Design</button>
+      <button class="btn" style="padding: 0.5rem 1.5rem;">Brand Identity</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <a href="project-detail.html?id=1" class="card project-card reveal delay-1">
+        <div class="img-hover-zoom">
+          <img src="assets/images/roundy.jpg" alt="Roundy Brand Design" class="project-image">
+        </div>
+        <div class="project-info">
+          <span class="project-category">Brand Design</span>
+          <h3 class="project-title">Roundy</h3>
+          <p class="text-muted" style="font-size: 0.85rem; margin-top: 0.5rem;">Handcrafted identities that tell unique brand stories with purpose and elegance.</p>
+        </div>
+      </a>
+      
+      <!-- Project 2 -->
+      <a href="project-detail.html?id=2" class="card project-card reveal delay-2">
+        <div class="img-hover-zoom">
+          <img src="assets/images/staya.jpg" alt="Staya Mobile UX" class="project-image">
+        </div>
+        <div class="project-info">
+          <span class="project-category">Mobile UX</span>
+          <h3 class="project-title">Staya</h3>
+          <p class="text-muted" style="font-size: 0.85rem; margin-top: 0.5rem;">Mobile experiences built around real user behaviour and delight.</p>
+        </div>
+      </a>
+      
+      <!-- Project 3 -->
+      <a href="project-detail.html?id=3" class="card project-card reveal delay-3">
+        <div class="img-hover-zoom">
+          <img src="assets/images/ehson.jpg" alt="Ehson Web Design" class="project-image">
+        </div>
+        <div class="project-info">
+          <span class="project-category">Web Design</span>
+          <h3 class="project-title">Ehson</h3>
+          <p class="text-muted" style="font-size: 0.85rem; margin-top: 0.5rem;">Clean web designs that speak the brand language fluently.</p>
+        </div>
+      </a>
+
+      <!-- Project 4 -->
+      <a href="project-detail.html?id=4" class="card project-card reveal delay-1">
+        <div class="img-hover-zoom">
+          <div class="project-image" style="background: linear-gradient(135deg, #2a1a2a, #140a14); display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+             [SaaS Dashboard Thumbnail]
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-category">UX/UI</span>
+          <h3 class="project-title">Nexus Analytics</h3>
+          <p class="text-muted" style="font-size: 0.85rem; margin-top: 0.5rem;">A complex data dashboard simplified for everyday business users.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
