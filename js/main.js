@@ -27,8 +27,8 @@ const FOOTER_HTML = `
         <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size:0.75rem;">Download Resume</a>
       </div>
       <div class="footer-links">
-        <a href="https://behance.net" target="_blank" rel="noopener">Behance</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.behance.net/amanygalal4" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.linkedin.com/in/amany-galal-523b94352/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </footer>
